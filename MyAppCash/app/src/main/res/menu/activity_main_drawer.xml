@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registrar_ingreso"
+            android:icon="@drawable/baseline_ingreso_24"
+            android:title="Registrar Ingreso" />
+        <item
+            android:id="@+id/nav_crear_presupuesto"
+            android:icon="@drawable/baseline_prosu_24"
+            android:title="Crear Presupuesto" />
+        <item
+            android:id="@+id/nav_registrar_gastos"
+            android:icon="@drawable/baseline_gasto_24"
+            android:title="Registrar Gastos" />
+        <item
+            android:id="@+id/nav_recursos_educativos"
+            android:icon="@drawable/baseline_edu_24"
+            android:title="Recursos Educativos" />
+        <item
+            android:id="@+id/nav_gategorias_gatos"
+            android:icon="@drawable/baseline_categ_24"
+            android:title="Gategorias de gatos" />
+        <item
+            android:id="@+id/nav_planificacion_ahorros"
+            android:icon="@drawable/baseline_ahorro_24"
+            android:title="Planificación de Ahorros" />
+        <item
+            android:id="@+id/nav_evaluacion_feedback"
+            android:icon="@drawable/baseline_eva_24"
+            android:title="Evaluación y Feedback" />
+        <item
+            android:id="@+id/nav_my_cash"
+            android:icon="@drawable/baseline_mycash_24"
+            android:title="My Cash" />
+    </group>
+</menu>

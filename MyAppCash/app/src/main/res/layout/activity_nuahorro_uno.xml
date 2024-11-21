@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="365dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/croissant_one"
+        android:text="¿Qué es el Ahorro y por qué es importante?"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/money"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/definitionTextView1"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="- El ahorro es el dinero que se reserva o guarda para usar en el futuro, en lugar de gastarlo en el presente."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/definitionTextView2"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="- Es importante porque ayuda a enfrentar emergencias, alcanzar metas y proporciona seguridad financiera."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/definitionTextView1"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/keyConceptsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conceptos Clave"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#1ABD1A"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/definitionTextView2"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/emergencySavingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahorro para emergencias"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keyConceptsTitle"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/emergencySavingsDescription"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:text="El ahorro actúa como una protección frente a gastos inesperados."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emergencySavingsTitle"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/shortLongTermSavingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahorro a corto y largo plazo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emergencySavingsDescription"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/shortLongTermSavingsDescription"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Explica la diferencia entre metas a corto plazo (como comprar algo en pocos meses) y a largo plazo (como comprar una casa)."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shortLongTermSavingsTitle"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="377dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/metodo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shortLongTermSavingsDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

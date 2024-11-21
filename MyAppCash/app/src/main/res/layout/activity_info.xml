@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Barra de búsqueda -->
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:queryHint="Buscar..." />
+
+    <!-- Botón Nivel Uno -->
+    <Button
+        android:id="@+id/buttonNivelUno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nivel Uno"
+        app:layout_constraintTop_toBottomOf="@id/searchView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Botón Nivel Dos -->
+    <Button
+        android:id="@+id/buttonNivelDos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nivel Dos"
+        app:layout_constraintTop_toBottomOf="@id/buttonNivelUno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón Nivel Tres -->
+    <Button
+        android:id="@+id/buttonNivelTres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nivel Tres"
+        app:layout_constraintTop_toBottomOf="@id/buttonNivelDos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

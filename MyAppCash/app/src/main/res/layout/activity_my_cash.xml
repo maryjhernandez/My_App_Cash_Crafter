@@ -1,0 +1,51 @@
+<!-- Ruta: res/layout/activity_my_cash.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E8F5E9"> <!-- Fondo verde claro -->
+
+    <!-- Título centrado -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Cash"
+        android:textSize="24sp"
+        android:textColor="#388E3C"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="24dp" />
+
+    <!-- Botón para Ingreso -->
+    <Button
+        android:id="@+id/btn_ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIS INGRESO"
+        android:backgroundTint="#8BC34A"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para Gastos -->
+    <Button
+        android:id="@+id/btn_gastos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIS GASTOS"
+        android:backgroundTint="#8BC34A"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para Ahorros -->
+    <Button
+        android:id="@+id/btn_ahorros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIS AHORROS"
+        android:backgroundTint="#8BC34A"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

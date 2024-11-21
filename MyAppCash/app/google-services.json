@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774192190190",
+    "project_id": "myappcash-fc00d",
+    "storage_bucket": "myappcash-fc00d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774192190190:android:494de9164a2afca26e59ff",
+        "android_client_info": {
+          "package_name": "co.edu.unipiloto.myappcash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRId2nd0BM_R7Mi_kn46uF80cp_maM67k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

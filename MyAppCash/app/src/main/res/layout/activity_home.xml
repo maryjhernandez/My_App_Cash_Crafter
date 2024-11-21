@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Empieza tu viaje financiero"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="2"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Botón para Ingresos -->
+        <Button
+            android:id="@+id/btnIngreso"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:text="Registrar Ingreso"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@color/black"
+            android:padding="1dp" />
+
+        <!-- Botón para Presupuesto -->
+        <Button
+            android:id="@+id/btnBudget"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:padding="1dp"
+            android:text="Crear Presupuesto"
+            android:textColor="@color/black" />
+
+        <!-- Botón para Gastos -->
+        <Button
+            android:id="@+id/btnExpenses"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:padding="1dp"
+            android:text="Registrar Gastos"
+            android:textColor="@color/black" />
+
+        <!-- Botón para Recursos Educativos -->
+        <Button
+            android:id="@+id/btnCommunity"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:text="Recursos Educativos"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@color/black"
+            android:padding="1dp" />
+
+
+        <!-- Botón para Ahorros -->
+        <Button
+            android:id="@+id/btnSavings"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:text="Planificación de Ahorros"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@color/black"
+            android:padding="1dp" />
+
+        <!-- Botón para My Cash -->
+        <Button
+            android:id="@+id/btnMyCash"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:text="My Cash"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/black"
+            android:padding="1dp" />
+
+    </LinearLayout>
+</RelativeLayout>

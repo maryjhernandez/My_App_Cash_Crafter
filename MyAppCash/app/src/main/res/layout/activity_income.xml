@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/ingre"
+    tools:context=".IncomeActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/incomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Registrar Ingreso"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50" />
+
+    <!-- Fuente de Ingreso -->
+    <Spinner
+        android:id="@+id/spIncomeSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/incomeTitle"
+        android:layout_marginTop="30dp"
+        android:background="#E8F5E9"
+        android:padding="12dp" />
+
+    <!-- Descripción del ingreso -->
+    <EditText
+        android:id="@+id/etIncomeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spIncomeSource"
+        android:layout_marginTop="20dp"
+        android:hint="Descripción del ingreso"
+        android:inputType="text"
+        android:background="#E8F5E9"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Monto del ingreso -->
+    <EditText
+        android:id="@+id/etIncomeAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etIncomeDescription"
+        android:layout_marginTop="20dp"
+        android:hint="Monto"
+        android:inputType="numberDecimal"
+        android:background="#E8F5E9"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Fecha del ingreso -->
+    <EditText
+        android:id="@+id/etIncomeDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etIncomeAmount"
+        android:layout_marginTop="20dp"
+        android:hint="Fecha (DD/MM/YYYY)"
+        android:inputType="text"
+        android:background="#E8F5E9"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Tipo de Ingreso -->
+    <Spinner
+        android:id="@+id/spIncomeType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etIncomeDate"
+        android:layout_marginTop="20dp"
+        android:background="#E8F5E9"
+        android:padding="12dp" />
+
+    <!-- Botón Guardar -->
+    <Button
+        android:id="@+id/btnSaveIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spIncomeType"
+        android:layout_marginTop="30dp"
+        android:text="GUARDAR INGRESO"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Botón Editar -->
+    <Button
+        android:id="@+id/btnEditIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSaveIncome"
+        android:layout_marginTop="20dp"
+        android:text="EDITAR INGRESO"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Botón Eliminar -->
+    <Button
+        android:id="@+id/btnDeleteIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditIncome"
+        android:layout_marginTop="20dp"
+        android:text="ELIMINAR INGRESO"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</RelativeLayout>

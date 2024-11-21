@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gasto"
+    tools:context=".ExpensesActivity">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/expenseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Registrar Gasto"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#076407" />
+
+        <!-- Campo para la descripción del gasto -->
+        <EditText
+            android:id="@+id/etExpenseDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expenseTitle"
+            android:layout_marginTop="20dp"
+            android:hint="Descripción del gasto"
+            android:inputType="text"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:elevation="2dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Campo para el monto del gasto -->
+        <EditText
+            android:id="@+id/etExpenseAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etExpenseDescription"
+            android:layout_marginTop="20dp"
+            android:hint="Monto"
+            android:inputType="numberDecimal"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:elevation="2dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Campo para la fecha del gasto -->
+        <EditText
+            android:id="@+id/etExpenseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etExpenseAmount"
+            android:layout_marginTop="20dp"
+            android:hint="Fecha (DD/MM/YYYY)"
+            android:inputType="text"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:elevation="2dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Spinner para seleccionar la categoría del gasto -->
+        <Spinner
+            android:id="@+id/spExpenseCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etExpenseDate"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:elevation="2dp" />
+
+        <!-- Botón para guardar el gasto -->
+        <Button
+            android:id="@+id/btnSaveExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spExpenseCategory"
+            android:layout_marginTop="30dp"
+            android:text="GUARDAR GASTO"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#3E8042"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Botón para agregar una nueva categoría -->
+        <Button
+            android:id="@+id/btnAddCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSaveExpense"
+            android:layout_marginTop="20dp"
+            android:text="AGREGAR CATEGORÍA"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#3E8042"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Botón para editar un gasto -->
+        <Button
+            android:id="@+id/btnEditExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAddCategory"
+            android:layout_marginTop="20dp"
+            android:text="EDITAR GASTO"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#3E8042"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Botón para eliminar un gasto -->
+        <Button
+            android:id="@+id/btnDeleteExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnEditExpense"
+            android:layout_marginTop="20dp"
+            android:text="ELIMINAR GASTO"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#3E8041"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+    </RelativeLayout>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">MyAppCash</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Array de Categorías -->
+    <string-array name="categories_array">
+        <item>Categoria</item>
+        <item>Alimentación</item>
+        <item>Transporte</item>
+        <item>Entretenimiento</item>
+        <item>Salud</item>
+        <item>Educación</item>
+        <item>Ropa</item>
+        <item>Hogar</item>
+        <item>Viajes</item>
+        <item>Regalos</item>
+        <item>Impuestos</item>
+        <item>Seguros</item>
+        <item>Inversiones</item>
+        <item>Servicios Públicos</item>
+        <item>Hobbies</item>
+        <item>Donaciones</item>
+        <item>Cuotas</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- Array de Categorías -->
+    <string-array name="goals_array">
+        <item>Planecion de Ahorro</item>
+        <item>Ahorrar para vacaciones</item>
+        <item>Fondo de emergencia</item>
+        <item>Compra de vivienda</item>
+        <item>Ahorrar para educación</item>
+        <item>Fondo para jubilación</item>
+        <item>Pago de deudas</item>
+        <item>Inversión en negocios</item>
+        <item>Mejorar crédito</item>
+        <item>Ahorrar para un coche</item>
+        <item>Compra de tecnología (ej. laptop, celular)</item>
+        <item>Ahorrar para un viaje largo</item>
+        <item>Inversiones en bienes raíces</item>
+        <item>Fondo para educación de los hijos</item>
+        <item>Comprar una segunda vivienda</item>
+        <item>Ahorrar para un fondo de emergencia empresarial</item>
+        <item>Compra de una moto o bicicleta eléctrica</item>
+        <item>Fondo para un negocio propio</item>
+        <item>Ahorrar para una boda</item>
+        <item>Crear un fondo de inversión personal</item>
+        <item>Planificar la compra de una propiedad de vacaciones</item>
+        <item>Fondo para apoyar a la familia en caso de emergencia</item>
+        <item>Inversión en fondos mutuos</item>
+        <item>Compra de un terreno</item>
+        <item>Inversiones en acciones y bolsa de valores</item>
+        <item>Ahorrar para renovar la casa</item>
+        <item>Otro</item>
+    </string-array>
+
+
+    <string-array name="income_sources_array">
+        <item>Ingreso</item>
+        <item>Salario</item>
+        <item>Inversiones</item>
+        <item>Trabajos Adicionales</item>
+        <item>Otros</item>
+        <item>Renta de Propiedades</item>
+        <item>Dividendos</item>
+        <item>Intereses de Ahorros</item>
+        <item>Ventas de Productos</item>
+        <item>Freelance</item>
+        <item>Bonos y Comisiones</item>
+        <item>Consultorías</item>
+        <item>Regalías</item>
+        <item>Pagos por Proyectos</item>
+        <item>Ingresos por Patrocinios</item>
+        <item>Préstamos Personales</item>
+    </string-array>
+
+
+    <!-- Array de Categorías para Gastos -->
+    <string-array name="expense_categories_array">
+        <item>Seleccione una categoría</item>
+        <item>Alimentación</item>
+        <item>Transporte</item>
+        <item>Vivienda</item>
+        <item>Servicios Públicos</item>
+        <item>Educación</item>
+        <item>Salud</item>
+        <item>Ropa</item>
+        <item>Entretenimiento</item>
+        <item>Seguros</item>
+        <item>Deudas</item>
+        <item>Impuestos</item>
+        <item>Mascotas</item>
+        <item>Hobbies</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="income_type_array">
+        <item>Tipo</item>
+        <item>Recurrente</item>
+        <item>No Recurrente</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
